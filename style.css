@@ -1,0 +1,122 @@
+*{
+    background: #F3F5FC;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+}
+
+.logo{
+    position: absolute;
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.ingreso-texto{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #0a3871;}
+
+.ingreso-texto:focus {
+    outline: none;
+}
+
+.informacion{
+    color: grey;
+    font-size: 12px;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.boton-encriptar{
+    background: #0A3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.boton-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.mensaje-encriptado{
+    background: #ffffff;
+    background-image: url(imagenes/Muñeco.png);
+    background-size: 280px;
+    background-position-x: center; 
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 120px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje-encriptado:focus{
+    outline: none;
+}
+
+.descripcion{
+    color: #000000;
+    margin-left: 180px;
+    margin-top: 330px;
+    padding-left: 20px;
+    background: none;
+    font-size: 13px;
+    font-weight: bold;
+    position: fixed;
+}
+
+#textos{
+    display: block;
+}
+
+.parrafo{
+    color: #000000;
+    margin-left: 160px;
+    margin-top: 345px;
+    padding-left: 20px;
+    background: none;
+    font-size: 10px;
+    position: fixed;
+}
+
+.copiar{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 140px;
+    width: 300px;
+    margin-top: 474px;
+    position: absolute;
+}
+
